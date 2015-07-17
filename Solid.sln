@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-SRP", "1-SRP", "{0829418D-DCA4-4ED7-8CAB-A14B9813BB41}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-OCP", "2-OCP", "{DBE7F180-174B-4851-A23C-82DA89272ACE}"
@@ -51,6 +53,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversion-Before"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversion-After", "DependencyInversion-After\DependencyInversion-After.csproj", "{40E1886B-C88E-4798-94C3-F40805383339}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-CQS", "0-CQS", "{DFC61408-58BD-4A27-9255-8D214FC80365}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQS", "CQS\CQS.csproj", "{21902360-E368-451F-B06D-7B19566B45A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +103,10 @@ Global
 		{40E1886B-C88E-4798-94C3-F40805383339}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40E1886B-C88E-4798-94C3-F40805383339}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40E1886B-C88E-4798-94C3-F40805383339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21902360-E368-451F-B06D-7B19566B45A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21902360-E368-451F-B06D-7B19566B45A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21902360-E368-451F-B06D-7B19566B45A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21902360-E368-451F-B06D-7B19566B45A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -122,5 +132,6 @@ Global
 		{7B8883C4-3914-41CE-A5E2-162C361A2832} = {09354626-1042-4C39-97E1-C3E842E5F065}
 		{5CD4F570-C0EE-496A-95DF-DD91D33BBC5E} = {D31F4B1B-3A81-4105-B81F-F6565CBD7533}
 		{40E1886B-C88E-4798-94C3-F40805383339} = {65907A6C-DB69-4AE0-906A-C7D4BE9CC624}
+		{21902360-E368-451F-B06D-7B19566B45A5} = {DFC61408-58BD-4A27-9255-8D214FC80365}
 	EndGlobalSection
 EndGlobal
